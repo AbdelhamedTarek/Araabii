@@ -1,11 +1,16 @@
+import AboutUs from "../components/Aboutus";
 import Footer from "../components/Footer";
+import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 
 const AppLayout = () => {
   return (
     <div>
       <Navbar />
-      <main className="font-body">Main</main>
+      <main>
+        <Hero />
+        <AboutUs />
+      </main>
       <Footer />
     </div>
   );

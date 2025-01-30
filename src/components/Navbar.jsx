@@ -8,9 +8,10 @@ const Navbar = () => {
   const [showNavLinks, setShowNavLinks] = useState(false);
 
   return (
-    <header className="bg-[#2b2512] px-12 py-4 md:flex md:justify-between md:items-center">
+    // <header className="bg-[#2b2512] px-12 py-1 md:flex md:justify-between md:items-center">
+    <header className="absolute top-0 left-0 w-full px-12 py-4 flex justify-between items-center z-50 bg-transparent">
       <div className="flex justify-between items-center w-full md:w-auto">
-        <img src={Logo} alt="" width={90} height={90} />
+        <img src={Logo} alt="" width={150} height={150} />
         <div className="md:hidden">
           <button
             onClick={() => setShowNavLinks(!showNavLinks)}
