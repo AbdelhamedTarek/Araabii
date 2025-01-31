@@ -27,23 +27,24 @@ const AboutUs = () => {
           </p>
           <p>
             <strong>We Cover:</strong>
-            <ol className="list-decimal list-inside text-sm md:text-lg text-[#2b2512] font-body px-4 tracking-normal font-semibold">
-              <li>
-                <IoFitness className="inline-block mr-1 text-2xl" /> Physical
-                fitness Exercises to enhance your strength, balance, and
-                coordination for effective riding.
-              </li>
-              <li>
-                <GiGiftOfKnowledge className="inline-block mr-1 text-2xl" />{" "}
-                Equine knowledge Horsemanship Basics
-              </li>
-              <li>
-                <GiMagicLamp className="inline-block mr-1 text-2xl" />
-                Riding techniques Develop your skills in various riding
-                disciplines.
-              </li>
-            </ol>
           </p>
+          <ol className="list-decimal list-inside text-sm md:text-lg text-[#2b2512] font-body px-4 tracking-normal font-semibold">
+            <li>
+              <IoFitness className="inline-block mr-1 text-2xl" /> Physical
+              fitness Exercises to enhance your strength, balance, and
+              coordination for effective riding.
+            </li>
+            <li>
+              <GiGiftOfKnowledge className="inline-block mr-1 text-2xl" />{" "}
+              Equine knowledge Horsemanship Basics
+            </li>
+            <li>
+              <GiMagicLamp className="inline-block mr-1 text-2xl" />
+              Riding techniques Develop your skills in various riding
+              disciplines.
+            </li>
+          </ol>
+
           <button className="mt-4 px-6 py-4 bg-[#2b2512] text-white rounded-md capitalize cursor-pointer hover:bg-[#cfaf70] hover:text-[#2b2512] transition duration-300 ease-in-out font-button">
             Start Now
           </button>

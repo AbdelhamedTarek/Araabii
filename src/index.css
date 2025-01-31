@@ -5,10 +5,35 @@
   .nav-links {
     @apply text-[#F5F5DC] no-underline hover:underline  hover:text-[#cfaf70] hover:decoration-[#cfaf70] hover:scale-110 inline-block transition duration-300 ease-in-out;
   }
+  .input-field {
+    @apply p-5 w-full focus:outline-0 bg-transparent rounded-lg border-b-2 border-[#2b2512] text-[#2b2512] font-body;
+  }
 }
 
 @theme {
   --font-heading: "Playfair Display", serif;
   --font-body: "Lora", serif;
   --font-button: "Poppins", sans-serif;
+}
+
+/* For Webkit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 12px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Background of the scrollbar track */
+  border-radius: 6px; /* Rounded corners for the scrollbar track */
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1); /* Inner shadow for a modern look */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cfaf70; /* Color of the scrollbar thumb */
+  border-radius: 6px; /* Rounded corners for the scrollbar thumb */
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2); /* Inner shadow for a modern look */
+  transition: background 0.3s ease; /* Smooth transition for background color */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #2b2512; /* Color of the scrollbar thumb on hover */
 }
